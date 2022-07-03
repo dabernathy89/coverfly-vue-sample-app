@@ -10,4 +10,4 @@ The app contains a form with a number input and a log of all requests that have 
 
 ## Tests
 
-There are unit and component tests. Run these with the command `npm run test`.
+There are unit tests and a component test. Run these with the command `npm run test`.
