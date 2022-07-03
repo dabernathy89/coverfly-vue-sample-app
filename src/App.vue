@@ -18,6 +18,12 @@
   <label for="calculator-input">Provide your input number here:</label><br>
   <input id="calculator-input" v-model="input" type="number" />
   <button :disabled="waiting" @click="submit">Submit</button>
+
+  <hr>
+
+  <div v-for="response in store.history">
+    {{ JSON.stringify(response) }}
+  </div>
 </template>
 
 <style>
