@@ -37,7 +37,7 @@ function addToHistory(input, result, now) {
 }
 
 function validate(num) {
-  if (!Number.isInteger(num) || num < 0 || num > 100) {
+  if (!Number.isInteger(num) || num < 1 || num > 100) {
     throw 'Invalid input: number should be between 1 and 100.'
   }
 }

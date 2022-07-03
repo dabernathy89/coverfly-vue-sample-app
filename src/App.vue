@@ -1,10 +1,11 @@
 <script setup>
   import { ref } from 'vue';
   import { useStore } from './store';
+  import History from './components/History.vue';
 
   const store = useStore();
 
-  const input = ref(0);
+  const input = ref(1);
   const waiting = ref(false);
   const failed = ref(false);
 
@@ -16,7 +17,7 @@
     } catch (err) {
       console.log({err});
       failed.value = true;
-      input.value = 0;
+      input.value = 1;
     }
     waiting.value = false;
   }
@@ -35,9 +36,7 @@
 
   <hr>
 
-  <div v-for="response in store.history">
-    {{ JSON.stringify(response) }}
-  </div>
+  <History />
 </template>
 
 <style>
