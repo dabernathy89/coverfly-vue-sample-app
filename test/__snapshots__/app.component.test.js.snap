@@ -1,0 +1,45 @@
+// Vitest Snapshot v1
+
+exports[`mount component 1`] = `
+"<form><label for=\\"calculator-input\\">Provide your input number here:</label><br><input id=\\"calculator-input\\" type=\\"number\\"><input type=\\"submit\\" value=\\"Submit\\"></form>
+<!--v-if-->
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+      <th># Runs</th>
+      <th>Date</th>
+      <th>Previous Run Date</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>"
+`;
+
+exports[`mount component 2`] = `
+"<form><label for=\\"calculator-input\\">Provide your input number here:</label><br><input id=\\"calculator-input\\" type=\\"number\\"><input type=\\"submit\\" value=\\"Submit\\"></form>
+<!--v-if-->
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+      <th># Runs</th>
+      <th>Date</th>
+      <th>Previous Run Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td>2640</td>
+      <td>1</td>
+      <td>Jul 3, 2022 7:09:33 AM</td>
+      <td>Jul 3, 2022 7:09:33 AM</td>
+    </tr>
+  </tbody>
+</table>"
+`;
